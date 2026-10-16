@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    int CP,SP;
+    printf(" The Value of SP: \n");
+    scanf("%d%d",&CP,&SP);
+    if(SP>CP){
+    puts(" The costumer is not in profit ");
+    }
+    else if(CP>SP){
+      printf("\n The costumer in profit ");
+    }
+    else {
+      printf("\n Non-profit, no loss");
+    }
+}

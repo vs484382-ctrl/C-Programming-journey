@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main()
+{
+    int a;
+    scanf("%d", &a);
+    if (a>0) {
+      if (a%2==0) {
+      printf("The number is positive and        even\n");
+      
+      }
+       else {
+       printf("\n The number is positive but not even");
+      }
+      
+      }
+    else if (a<0) {
+      if (a%2==0) {
+      puts(" The number is negative but even");
+      
+        
+      }
+      else {
+        printf("\n The is negative but not even");
+      }
+    }
+    else {
+      printf("\n The number is neither negative nor positive but it is even");
+    }
+}

@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+    int x,y,z;
+    printf("\n The oldest person is : \n");
+    scanf("%d %d %d", &x,&y,&z);
+    if (x>y&&x>z) {
+    puts(" x is oldest person");
+      
+    }
+    else if (y>x &&y> z){
+    puts("y is oldest");
+    
+      
+    }
+    else {
+      printf("\n z is oldest");
+    }
+}

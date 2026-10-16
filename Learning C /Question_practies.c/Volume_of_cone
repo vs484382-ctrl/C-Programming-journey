@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(void)
+{
+    float pi,r,h;
+    pi=3.14;
+    r=6;
+    h=9;
+    printf("The volume of cone= %f",(pi*r*r*h)/3);
+}

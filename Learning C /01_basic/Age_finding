@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(void)
+{
+    printf("Hello, World!\n\n");
+    int a,b,c;
+    a=5,b=9,c=1;
+    printf("%d %d",a,b);
+    printf("\n%d",c);
+    printf("\n\n\n");
+    int age,name;
+    age=20,name=8.2;
+    printf("Hello Vivek82 your age is %d %d",name,age);  
+}
